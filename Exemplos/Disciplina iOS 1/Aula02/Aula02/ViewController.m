@@ -57,4 +57,13 @@
     
 }
 
+
+- (IBAction) unwindParaPrimeiraTela: (UIStoryboardSegue *) segue {
+    
+    SegundoViewController *origem = segue.sourceViewController;
+    
+    NSLog(@"Valor: %@", origem.valor);
+    
+}
+
 @end
