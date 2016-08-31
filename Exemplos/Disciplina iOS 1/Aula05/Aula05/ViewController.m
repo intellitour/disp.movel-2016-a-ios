@@ -11,6 +11,7 @@
 #import "ViewDeTexto.h"
 #import "ViewDeImagem.h"
 #import "ViewClip.h"
+#import "ViewEstrela.h"
 
 @interface ViewController ()
 
@@ -37,8 +38,12 @@
 //    ViewDeImagem *vi = [[ViewDeImagem alloc] initWithFrame:CGRectMake(100, 100, 150, 150)];
 //    [self.view addSubview:vi];
     
-    ViewClip *clip = [[ViewClip alloc] initWithFrame:CGRectMake(30, 30, 250, 250)];
-    [self.view addSubview:clip];
+//    ViewClip *clip = [[ViewClip alloc] initWithFrame:CGRectMake(30, 30, 250, 250)];
+//    [self.view addSubview:clip];
+    
+    
+    ViewEstrela *estrela = [[ViewEstrela alloc] initWithFrame:self.view.frame];
+    [self.view addSubview: estrela];
     
 }
 

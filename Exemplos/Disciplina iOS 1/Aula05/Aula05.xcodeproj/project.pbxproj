@@ -17,6 +17,7 @@
 		EB085D8C1D6E6AD500B79597 /* ViewDeTexto.m in Sources */ = {isa = PBXBuildFile; fileRef = EB085D8B1D6E6AD500B79597 /* ViewDeTexto.m */; };
 		EB085D8F1D6E6D6E00B79597 /* ViewDeImagem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB085D8E1D6E6D6E00B79597 /* ViewDeImagem.m */; };
 		EB085D921D6E6E6400B79597 /* ViewClip.m in Sources */ = {isa = PBXBuildFile; fileRef = EB085D911D6E6E6400B79597 /* ViewClip.m */; };
+		EB71141F1D773DC200B5FACD /* ViewEstrela.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71141E1D773DC200B5FACD /* ViewEstrela.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		EB085D8E1D6E6D6E00B79597 /* ViewDeImagem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDeImagem.m; sourceTree = "<group>"; };
 		EB085D901D6E6E6400B79597 /* ViewClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewClip.h; sourceTree = "<group>"; };
 		EB085D911D6E6E6400B79597 /* ViewClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewClip.m; sourceTree = "<group>"; };
+		EB71141D1D773DC200B5FACD /* ViewEstrela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewEstrela.h; sourceTree = "<group>"; };
+		EB71141E1D773DC200B5FACD /* ViewEstrela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewEstrela.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				EB085D8E1D6E6D6E00B79597 /* ViewDeImagem.m */,
 				EB085D901D6E6E6400B79597 /* ViewClip.h */,
 				EB085D911D6E6E6400B79597 /* ViewClip.m */,
+				EB71141D1D773DC200B5FACD /* ViewEstrela.h */,
+				EB71141E1D773DC200B5FACD /* ViewEstrela.m */,
 			);
 			path = Aula05;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				EB085D781D6E663F00B79597 /* ViewController.m in Sources */,
 				EB085D8C1D6E6AD500B79597 /* ViewDeTexto.m in Sources */,
 				EB085D751D6E663F00B79597 /* AppDelegate.m in Sources */,
+				EB71141F1D773DC200B5FACD /* ViewEstrela.m in Sources */,
 				EB085D891D6E668600B79597 /* MinhaView.m in Sources */,
 				EB085D721D6E663F00B79597 /* main.m in Sources */,
 				EB085D921D6E6E6400B79597 /* ViewClip.m in Sources */,
@@ -326,6 +332,7 @@
 				EB085D861D6E663F00B79597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
