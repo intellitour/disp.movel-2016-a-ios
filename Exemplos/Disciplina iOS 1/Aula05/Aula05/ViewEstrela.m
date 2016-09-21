@@ -30,7 +30,7 @@
 - (void)drawRect:(CGRect)rect {
     UIBezierPath *path = [UIBezierPath new];
     
-    CGFloat extrusao = 50;
+    CGFloat extrusao = 100;
     CGPoint center = CGPointMake(rect.size.width/2, rect.size.height/2);
     
     NSUInteger pontasNaEstrela = 5 + arc4random() % 10;
