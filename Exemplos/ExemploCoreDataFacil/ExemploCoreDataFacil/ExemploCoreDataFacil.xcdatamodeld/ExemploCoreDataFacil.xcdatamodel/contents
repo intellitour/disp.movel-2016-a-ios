@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Endereco" representedClassName="Endereco" syncable="YES">
+        <attribute name="cep" attributeType="String" syncable="YES"/>
+        <attribute name="cidade" attributeType="String" syncable="YES"/>
+        <attribute name="complemento" attributeType="String" syncable="YES"/>
+        <attribute name="logradouro" attributeType="String" syncable="YES"/>
+        <relationship name="geo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ponto" syncable="YES"/>
+    </entity>
+    <entity name="Pessoa" representedClassName="Pessoa" syncable="YES">
+        <attribute name="email" attributeType="String" syncable="YES"/>
+        <attribute name="login" attributeType="String" syncable="YES"/>
+        <attribute name="nome" attributeType="String" syncable="YES"/>
+        <attribute name="site" attributeType="String" syncable="YES"/>
+        <attribute name="telefone" attributeType="String" syncable="YES"/>
+        <relationship name="endereco" maxCount="1" deletionRule="Nullify" destinationEntity="Endereco" syncable="YES"/>
+    </entity>
+    <entity name="Ponto" representedClassName="Ponto" syncable="YES">
+        <attribute name="latitude" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ponto" positionX="-380" positionY="-48" width="128" height="73"/>
+        <element name="Endereco" positionX="-126" positionY="-81" width="128" height="118"/>
+        <element name="Pessoa" positionX="-288" positionY="81" width="128" height="133"/>
+    </elements>
+</model>

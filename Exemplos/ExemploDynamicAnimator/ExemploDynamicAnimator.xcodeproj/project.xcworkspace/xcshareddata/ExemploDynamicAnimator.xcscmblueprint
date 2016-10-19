@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1D46EEA65B6B266D9F756926163BEE30CEC7AA26",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0752A5AF6BCB54106785759977588F2113D3ECB0" : 0,
+    "1D46EEA65B6B266D9F756926163BEE30CEC7AA26" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "292E9002-1DB9-4C1E-87C8-193D2B669522",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0752A5AF6BCB54106785759977588F2113D3ECB0" : "disp.movel2014-ios",
+    "1D46EEA65B6B266D9F756926163BEE30CEC7AA26" : "git\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ExemploDynamicAnimator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Exemplos\/ExemploDynamicAnimator\/ExemploDynamicAnimator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/intellitour\/disp.movel2014-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0752A5AF6BCB54106785759977588F2113D3ECB0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/intellitour\/disp.movel-2016-a-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D46EEA65B6B266D9F756926163BEE30CEC7AA26"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vfA-Gy-fiY">
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5AH-tD-xIL">
+                                <state key="normal" title="Quadrado!"/>
+                                <connections>
+                                    <action selector="fazerCairQuadrado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oSg-xZ-Qq3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEp-80-jPn">
+                                <state key="normal" title="Explodir!"/>
+                                <connections>
+                                    <action selector="fazerExplodir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LEL-91-pBz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5AH-tD-xIL" firstAttribute="width" secondItem="bEp-80-jPn" secondAttribute="width" id="0gT-9d-vPO"/>
+                            <constraint firstItem="vfA-Gy-fiY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Vb-ca-sbi"/>
+                            <constraint firstItem="5AH-tD-xIL" firstAttribute="top" secondItem="vfA-Gy-fiY" secondAttribute="bottom" constant="4" id="BAa-SJ-3wH"/>
+                            <constraint firstAttribute="trailing" secondItem="vfA-Gy-fiY" secondAttribute="trailing" id="Bwl-50-4wF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5AH-tD-xIL" secondAttribute="bottom" id="Ynn-sP-DFa"/>
+                            <constraint firstItem="vfA-Gy-fiY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Zfn-Nk-DFW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bEp-80-jPn" secondAttribute="bottom" id="hci-Sj-REC"/>
+                            <constraint firstItem="bEp-80-jPn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="q5H-pq-2qa"/>
+                            <constraint firstAttribute="trailing" secondItem="5AH-tD-xIL" secondAttribute="trailing" id="quA-VD-ijz"/>
+                            <constraint firstItem="5AH-tD-xIL" firstAttribute="leading" secondItem="bEp-80-jPn" secondAttribute="trailing" constant="8" id="zhJ-2p-mHH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tabuleiro" destination="vfA-Gy-fiY" id="eOv-Tt-1KE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
+        </scene>
+    </scenes>
+</document>
