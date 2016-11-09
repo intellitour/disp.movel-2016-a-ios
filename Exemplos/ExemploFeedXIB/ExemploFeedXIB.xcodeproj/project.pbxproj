@@ -15,6 +15,8 @@
 		EB6714481DC14ECF00411699 /* TabelaComXib.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6714471DC14ECF00411699 /* TabelaComXib.m */; };
 		EB67144C1DC14F3500411699 /* CelulaExemploComXib.m in Sources */ = {isa = PBXBuildFile; fileRef = EB67144A1DC14F3500411699 /* CelulaExemploComXib.m */; };
 		EB67144D1DC14F3500411699 /* CelulaExemploComXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB67144B1DC14F3500411699 /* CelulaExemploComXib.xib */; };
+		EBE676F21DC15B1F00C6DEC6 /* CelulaXPTO.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE676F01DC15B1F00C6DEC6 /* CelulaXPTO.m */; };
+		EBE676F31DC15B1F00C6DEC6 /* CelulaXPTO.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE676F11DC15B1F00C6DEC6 /* CelulaXPTO.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		EB6714491DC14F3500411699 /* CelulaExemploComXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelulaExemploComXib.h; sourceTree = "<group>"; };
 		EB67144A1DC14F3500411699 /* CelulaExemploComXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelulaExemploComXib.m; sourceTree = "<group>"; };
 		EB67144B1DC14F3500411699 /* CelulaExemploComXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CelulaExemploComXib.xib; sourceTree = "<group>"; };
+		EBE676EF1DC15B1F00C6DEC6 /* CelulaXPTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelulaXPTO.h; sourceTree = "<group>"; };
+		EBE676F01DC15B1F00C6DEC6 /* CelulaXPTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelulaXPTO.m; sourceTree = "<group>"; };
+		EBE676F11DC15B1F00C6DEC6 /* CelulaXPTO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CelulaXPTO.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 				EB6714491DC14F3500411699 /* CelulaExemploComXib.h */,
 				EB67144A1DC14F3500411699 /* CelulaExemploComXib.m */,
 				EB67144B1DC14F3500411699 /* CelulaExemploComXib.xib */,
+				EBE676EF1DC15B1F00C6DEC6 /* CelulaXPTO.h */,
+				EBE676F01DC15B1F00C6DEC6 /* CelulaXPTO.m */,
+				EBE676F11DC15B1F00C6DEC6 /* CelulaXPTO.xib */,
 			);
 			path = ExemploFeedXIB;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 			files = (
 				EB67143F1DC14E8800411699 /* LaunchScreen.storyboard in Resources */,
 				EB67143C1DC14E8800411699 /* Assets.xcassets in Resources */,
+				EBE676F31DC15B1F00C6DEC6 /* CelulaXPTO.xib in Resources */,
 				EB67144D1DC14F3500411699 /* CelulaExemploComXib.xib in Resources */,
 				EB67143A1DC14E8800411699 /* Main.storyboard in Resources */,
 			);
@@ -160,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB6714341DC14E8800411699 /* AppDelegate.m in Sources */,
+				EBE676F21DC15B1F00C6DEC6 /* CelulaXPTO.m in Sources */,
 				EB6714311DC14E8800411699 /* main.m in Sources */,
 				EB67144C1DC14F3500411699 /* CelulaExemploComXib.m in Sources */,
 				EB6714481DC14ECF00411699 /* TabelaComXib.m in Sources */,
@@ -319,6 +329,7 @@
 				EB6714451DC14E8800411699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
