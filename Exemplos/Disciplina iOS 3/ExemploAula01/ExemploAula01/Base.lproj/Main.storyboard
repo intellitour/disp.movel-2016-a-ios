@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="30g-bB-kJC">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="30g-bB-kJC" secondAttribute="height" multiplier="15:8" id="crr-04-lXc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="viI-x8-2xy">
+                                <rect key="frame" x="140" y="231" width="94" height="30"/>
+                                <state key="normal" title="Escolher Foto"/>
+                                <connections>
+                                    <action selector="onEscolherFoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fIW-8q-zN9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="viI-x8-2xy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0uQ-OP-Ti7"/>
+                            <constraint firstItem="30g-bB-kJC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6I6-5t-7nQ"/>
+                            <constraint firstItem="30g-bB-kJC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dP5-DN-yAR"/>
+                            <constraint firstItem="30g-bB-kJC" firstAttribute="top" secondItem="viI-x8-2xy" secondAttribute="bottom" constant="8" id="iLJ-Pu-UtI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="30g-bB-kJC" secondAttribute="trailing" constant="52" id="vZ7-H8-84p"/>
+                            <constraint firstItem="30g-bB-kJC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="yX7-y9-jId"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="30g-bB-kJC" id="0DS-wq-svX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
