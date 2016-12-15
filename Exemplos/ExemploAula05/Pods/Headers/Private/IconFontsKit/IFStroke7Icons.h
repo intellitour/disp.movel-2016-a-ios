@@ -1,0 +1,1 @@
+../../../IconFontsKit/IconFontsKit/IFStroke7Icons.h

@@ -1,0 +1,14 @@
+project 'ExemploCompleto.xcodeproj'
+
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ExemploCompleto' do
+
+  pod 'AFNetworking', '~> 3.1'
+  pod 'JSONModel', '~> 1.7'
+  pod 'FontAwesomeKit', '~> 2.2'
+  pod 'MBProgressHUD', '~> 1.0'
+  pod 'SCLAlertView-Objective-C', '~> 1.1'
+
+end

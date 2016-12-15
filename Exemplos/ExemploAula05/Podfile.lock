@@ -1,0 +1,104 @@
+PODS:
+  - IconFontsKit (1.2.0):
+    - IconFontsKit/Core (= 1.2.0)
+    - IconFontsKit/Dashicons (= 1.2.0)
+    - IconFontsKit/Devicons (= 1.2.0)
+    - IconFontsKit/Dripicons (= 1.2.0)
+    - IconFontsKit/ElusiveIcons (= 1.2.0)
+    - IconFontsKit/Entypo (= 1.2.0)
+    - IconFontsKit/FontAwesome (= 1.2.0)
+    - IconFontsKit/FoundationIcons (= 1.2.0)
+    - IconFontsKit/Genericons (= 1.2.0)
+    - IconFontsKit/HawconsFilled (= 1.2.0)
+    - IconFontsKit/HawconsStroke (= 1.2.0)
+    - IconFontsKit/IcoMoonFree (= 1.2.0)
+    - IconFontsKit/Ionicons (= 1.2.0)
+    - IconFontsKit/LigatureSymbols (= 1.2.0)
+    - IconFontsKit/Linea (= 1.2.0)
+    - IconFontsKit/LineariconsFree (= 1.2.0)
+    - IconFontsKit/MapIcons (= 1.2.0)
+    - IconFontsKit/MaterialDesignIcons (= 1.2.0)
+    - IconFontsKit/MaterialIcons (= 1.2.0)
+    - IconFontsKit/Meteocons (= 1.2.0)
+    - IconFontsKit/MetrizeIcons (= 1.2.0)
+    - IconFontsKit/MFGLabsIconset (= 1.2.0)
+    - IconFontsKit/Octicons (= 1.2.0)
+    - IconFontsKit/OpenIconic (= 1.2.0)
+    - IconFontsKit/OpenWebIcons (= 1.2.0)
+    - IconFontsKit/StreamlineFree (= 1.2.0)
+    - IconFontsKit/Stroke7Icons (= 1.2.0)
+    - IconFontsKit/ThemifyIcons (= 1.2.0)
+    - IconFontsKit/Typicons (= 1.2.0)
+    - IconFontsKit/WeatherIcons (= 1.2.0)
+    - IconFontsKit/ZocialButtons (= 1.2.0)
+  - IconFontsKit/Core (1.2.0)
+  - IconFontsKit/Dashicons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Devicons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Dripicons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/ElusiveIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Entypo (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/FontAwesome (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/FoundationIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Genericons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/HawconsFilled (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/HawconsStroke (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/IcoMoonFree (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Ionicons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/LigatureSymbols (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Linea (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/LineariconsFree (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/MapIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/MaterialDesignIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/MaterialIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Meteocons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/MetrizeIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/MFGLabsIconset (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Octicons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/OpenIconic (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/OpenWebIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/StreamlineFree (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Stroke7Icons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/ThemifyIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/Typicons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/WeatherIcons (1.2.0):
+    - IconFontsKit/Core
+  - IconFontsKit/ZocialButtons (1.2.0):
+    - IconFontsKit/Core
+
+DEPENDENCIES:
+  - IconFontsKit (~> 1.2)
+
+SPEC CHECKSUMS:
+  IconFontsKit: 2d9d8776d27c877f31664a575489882f1a6dc1f6
+
+PODFILE CHECKSUM: 481720e2e7dc517ceaa24f608719a94b36958b5b
+
+COCOAPODS: 1.0.0
